@@ -3,12 +3,12 @@ package com.softwareinstitute.louis.clark.eg1;
 public class Cat {
     private String name;
     private int age;
-    private String breed;
+    private String Characteristic;
 
-    public Cat(String name, int age, String breed) {
+    public Cat(String name, int age, String Characteristic) {
         this.name = name;
         this.age = age;
-        this.breed = breed;
+        this.Characteristic = Characteristic;
     }
 
     public String getName(){
@@ -25,11 +25,11 @@ public class Cat {
         this.age = age;
     }
 
-    public String getBreed(){
-        return breed;
+    public String getCharacteristic(){
+        return Characteristic;
     }
-    public void setBreed(){
-        this.breed = breed;
+    public void setCharacteristic(){
+        this.Characteristic = Characteristic;
     }
 
 
@@ -41,7 +41,7 @@ public class Cat {
 
                 "\", \"age\":\"" + age +
 
-                "\", \"breed\":\"" + breed +
+                "\", \"breed\":\"" + Characteristic +
 
                 "\"}";
     }
