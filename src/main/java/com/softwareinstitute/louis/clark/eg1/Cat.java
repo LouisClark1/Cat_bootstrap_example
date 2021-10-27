@@ -37,11 +37,11 @@ public class Cat {
     public String getJsonObjectCat() {
         return "{" +
 
-                "\"name\"= \"" + name +
+                "\"name\": \"" + name +
 
-                "\", \"age\"=\"" + age +
+                "\", \"age\":\"" + age +
 
-                "\", \"breed\"=\"" + breed +
+                "\", \"breed\":\"" + breed +
 
                 "\"}";
     }

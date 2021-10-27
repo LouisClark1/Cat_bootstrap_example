@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController // i dont know why we need this
+@RestController // directs to restful endpoints, like an address book
 public class Eg1Application {
 
 	public static void main(String[] args) {
